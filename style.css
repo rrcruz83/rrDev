@@ -1,22 +1,27 @@
 body {
-    width: 250px;
-    height: auto;
+    display: flex;
     font-family: 'Rajdhani', sans-serif;
-    text-align: center;
-    background-image: url(img/background.jpg);
-    background-size: 250px;
-    background-repeat: repeat-y;
+    text-align: center;    
+}
+
+header {
+    width: 25%;
+    
 }
 
 nav {
-    width: 250px;
-    height: auto;
-    text-align: center;
+    position: fixed;
+    left: 0;
+    background-image: url(img/background.jpg);
+    background-size: auto;
+    width: 25%;
+    height: 100%;
+
 }
 
 nav img {
     margin-top: 15px ;
-    width: 180px;
+    width: 100px;
     padding: 15px;
     border-radius: 50% 50% 50% 50%;
     box-shadow: 0px 50px 50px rgba(255, 255, 255);
@@ -27,11 +32,11 @@ ul {
 }
 
 ul li {
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     font-weight: bold;
     color: aliceblue;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 li a {
@@ -44,20 +49,28 @@ li a:hover {
 }
 
 footer {
-    position: relative;
+    position: fixed;
+    width: 25%;
     bottom: 0px;
-    font-family: 'Rajdhani', sans-serif;
-    width: 250px;
+    background-color: #3CB371;
+    color: white;
 }
 
-.rodape img {
-    width: 80px;
-    border-radius: 50px 50px;
-    box-shadow: 0px 40px 70px 100px rgba(255, 255, 255);
+main {
+    width: 75%;
 }
 
-.rodape h1 {
-    margin-bottom: 20px;
-    text-decoration: none;
+.sobre {
+    padding: 10px;
     color: black;
+}
+
+.sobre h1 {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.sobre p{
+    margin-top: 10px;
 }
