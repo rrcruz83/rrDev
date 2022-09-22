@@ -1,7 +1,6 @@
 body {
     display: flex;
     font-family: 'Rajdhani', sans-serif;
-       
 }
 
 header {
@@ -59,6 +58,7 @@ footer {
 
 main {
     width: 75%;
+    
 }
 
 .sobre {
@@ -77,13 +77,11 @@ main {
     padding: 15px;
 }
 
-/*experiencia.html*/
-
-.experiencia {
+.informacoes {
     padding: 20px;
 }
 
-.cargo {
+.nome {
     font-size: 40px;
 }
 
@@ -91,6 +89,10 @@ main {
     font-style: italic;
     color: grey;
     text-decoration: underline;
+}
+
+.empresa a {
+    color: #3CB371;
 }
 
 .periodo {
@@ -103,4 +105,12 @@ main {
 
 .descricao {
     text-align: justify;
+}
+
+.fonte {
+    text-align: right;
+}
+
+.fonte a {
+    color: #3CB371;
 }
