@@ -82,8 +82,30 @@ main {
     padding: 20px;
 }
 
+.imagem {
+    width: 300px;
+    float: left;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    transition: 400ms;
+}
+
+.imagem:hover {
+    transform: scale(1.1) ;
+}
+
+
+.site {
+    margin: 5px 0;
+}
+
+.site a {
+    color: #3CB371;
+}
+
 .nome {
-    font-size: 40px;
+    font-size: 40px;    
 }
 
 .empresa {
@@ -125,4 +147,23 @@ main {
     font-size: 40px;
     width: 50px;
     color: black;
+}
+
+.redes-sociais i:hover {
+    color: #3CB371;
+}
+
+.github {
+    float: left;
+    color: black;
+}
+
+.github i {
+    font-size: 40px;
+    width: 40px;
+    color: black;
+}
+
+.github i:hover {
+    color: #3CB371;
 }
