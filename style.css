@@ -69,12 +69,13 @@ main {
 .sobre h1 {
     font-size: 50px;
     font-weight: bold;
-    padding: 15px;
+    padding: 20px;
 }
 
 .sobre p{
-    margin-top: 10px;
-    padding: 15px;
+    padding: 0 20px;
+    font-weight: bold;
+    color: #3CB371;
 }
 
 .informacoes {
@@ -105,6 +106,7 @@ main {
 
 .descricao {
     text-align: justify;
+    padding: 5px 0;
 }
 
 .fonte {
@@ -113,4 +115,14 @@ main {
 
 .fonte a {
     color: #3CB371;
+}
+
+.redes-sociais {
+    margin: 15px 0;
+}
+
+.redes-sociais i {
+    font-size: 40px;
+    width: 50px;
+    color: black;
 }
