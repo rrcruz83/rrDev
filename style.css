@@ -95,6 +95,15 @@ main {
     transform: scale(1.1) ;
 }
 
+.emp img {
+    float: left;
+    width: 100px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 100px;
+    border: 1px solid black;
+}
 
 .site {
     margin: 5px 0;
@@ -120,7 +129,6 @@ main {
 
 .periodo {
     position: relative;
-    top: -20px;
     text-align: right;
     color: #3CB371;
     font-weight: bold;
