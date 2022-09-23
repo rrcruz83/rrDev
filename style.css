@@ -1,7 +1,6 @@
 body {
     display: flex;
     font-family: 'Rajdhani', sans-serif;
-       
 }
 
 header {
@@ -28,11 +27,11 @@ nav img {
     box-shadow: 0px 50px 50px rgba(255, 255, 255);
 }
 
-ul {
+.lista-nav {
     padding: 70px 0px;
 }
 
-ul li {
+.lista-nav li {
     padding: 10px;
     text-align: center;
     font-weight: bold;
@@ -59,6 +58,7 @@ footer {
 
 main {
     width: 75%;
+    
 }
 
 .sobre {
@@ -69,10 +69,101 @@ main {
 .sobre h1 {
     font-size: 50px;
     font-weight: bold;
-    padding: 15px;
+    padding: 20px;
 }
 
 .sobre p{
-    margin-top: 10px;
-    padding: 15px;
+    padding: 0 20px;
+    font-weight: bold;
+    color: #3CB371;
+}
+
+.informacoes {
+    padding: 20px;
+}
+
+.imagem {
+    width: 300px;
+    float: left;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    transition: 400ms;
+}
+
+.imagem:hover {
+    transform: scale(1.1) ;
+}
+
+
+.site {
+    margin: 5px 0;
+}
+
+.site a {
+    color: #3CB371;
+}
+
+.nome {
+    font-size: 40px;    
+}
+
+.empresa {
+    font-style: italic;
+    color: grey;
+    text-decoration: underline;
+}
+
+.empresa a {
+    color: #3CB371;
+}
+
+.periodo {
+    position: relative;
+    top: -20px;
+    text-align: right;
+    color: #3CB371;
+    font-weight: bold;
+}
+
+.descricao {
+    text-align: justify;
+    padding: 5px 0;
+}
+
+.fonte {
+    text-align: right;
+}
+
+.fonte a {
+    color: #3CB371;
+}
+
+.redes-sociais {
+    margin: 15px 0;
+}
+
+.redes-sociais i {
+    font-size: 40px;
+    width: 50px;
+    color: black;
+}
+
+.redes-sociais i:hover {
+    color: #3CB371;
+}
+
+.github {
+    float: left;
+    color: black;
+}
+
+.github i {
+    font-size: 40px;
+    width: 40px;
+    color: black;
+}
+
+.github i:hover {
+    color: #3CB371;
 }
