@@ -1,6 +1,7 @@
 body {
     display: flex;
     font-family: 'Rajdhani', sans-serif;
+    font-size: 15px;
 }
 
 header {
@@ -93,7 +94,7 @@ main {
     float: left;
     padding-top: 15px;
     padding-right: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
     transition: 400ms;
 }
 
