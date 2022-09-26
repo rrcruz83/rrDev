@@ -78,6 +78,12 @@ main {
     color: #3CB371;
 }
 
+.banner {
+    width: 600px;
+    height: 200px;
+    margin: 0px 20px 20px 20px;
+}
+
 .informacoes {
     padding: 20px;
 }
@@ -137,6 +143,14 @@ main {
 .descricao {
     text-align: justify;
     padding: 5px 0;
+}
+
+.pontos {
+    text-align: justify;
+    padding: 2px 0;
+    margin-left: 20px;
+    font-size: 15px;
+    font-style: italic;
 }
 
 .fonte {
