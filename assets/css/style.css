@@ -13,7 +13,7 @@ header {
 nav {
     position: fixed;
     left: 0;
-    background-image: url(img/background.jpg);
+    background-image: url(../img/background.jpg);
     background-size: auto;
     width: 25%;
     height: 100%;
