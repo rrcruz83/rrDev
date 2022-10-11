@@ -11,48 +11,42 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet"> 
     </head>
-    <body>
-        <header>
-            <nav>
-                <img src="assets/img/rrdev2.png" alt="Foto de Robson Rodrigo Cruz">       
-                <ul class="lista-nav">
-                    <li><a href="index.html">Sobre</a></li>
-                    <li><a href="formacao.html">Formação</a</li>
-                    <li><a href="experiencia.html">Experiências</a</li>
-                    <li><a href="conhecimento.html">Conhecimentos</a</li>
-                    <li><a href="projetos.html">Projetos</a></li>
-                </ul>  
-            </nav>
-            <footer>
-                <h1 class="copyright">Desenvolvido por rrDev&copy</h1>
-            </footer>
-        </header>
-        
-        <main>
-            <div class="sobre">
-                <h1>Robson Rodrigo Cruz</h1>
-                <img class="banner" src="assets/img/banner.jpg" alt="">
-                <p>Desenvolvedor Jr/Pleno</p>
-                
-                <ul class="informacoes">
-                    <li class="descricao">Seja muito bem vindo ao meu site de apresentação pessoal!</li>
-                    <li class="descricao">O objetivo desse site é que ele seja um currículo/portifólio das minhas experiências e projetos. Além de ser um projeto em andamento para aprendizado e conhecimento, fazendo uso de novas linguagens, tecnologias e metodologias conforme eu adquira mais conhecimento.</li>
-                    <li class="descricao">Sou Desenvolvedor Jr/Pleno e atuo na área de TI desde 2013.</li>
-                    <li class="descricao">Já tive experiências como Analista de sistemas, Analista de Suporte e Desenvolvedor back-end e front-end.</li>
-                    <li class="descricao">No momento meu objetivo é me especializar apenas em front-end.</li> 
-                    <li class="descricao">Essas são algumas de minhas redes sociais:</li> 
-                    
-                    <li class="redes-sociais">
-                        <a href="https://github.com/rrcruz83"><i class="fa-brands fa-square-github"></i></a>
-                        <a href="https://www.linkedin.com/in/robson-rodrigo-cruz-57358817a/"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://twitter.com/asimov_2077"><i class="fa-brands fa-square-twitter"></i></a>
-                    </li>
-                </ul> 
-                        
-            </div>
-        <main>
-        
-        
-    </body>
+<body class="corpo">
+    <header class="cabecalho">
+        <a class="cabecalho_menu" aria-label="Menu"></a>            
+    </header>
 
+    <img class="banner" src="assets/img/banner.jpg" alt="">
+    
+    <nav class="menu_navegacao menu_navegacao_ativo">
+        <img class="menu_navegacao_logo" src="assets/img/rrdev2.png" alt="Imagem de Robson Rodrigo Cruz">
+        <a class="menu_navegacao_link" href="index.html">Sobre</a>
+        <a class="menu_navegacao_link" href="formacao.html">Formação</a>
+        <a class="menu_navegacao_link" href="experiencia.html">Experiências</a>
+        <a class="menu_navegacao_link" href="conhecimento.html">Conhecimentos</a>
+        <a class="menu_navegacao_link" href="projetos.html">Projetos</a>         
+    </nav>
+
+    <main class="principal">
+        <h1>Robson Rodrigo Cruz</h1>
+        <h2>Desenvolvedor Jr/Pleno</h2>
+        <div class="redes-sociais">
+            <a href="https://github.com/rrcruz83"><i class="fa-brands fa-square-github"></i></a>
+            <a href="https://www.linkedin.com/in/robson-rodrigo-cruz-57358817a/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/asimov_2077"><i class="fa-brands fa-square-twitter"></i></a>
+        </div>
+        
+        <article class="sobre">
+            <p class="descricao-sobre">Seja muito bem vindo ao meu site de apresentação pessoal!</p>
+            <p class="descricao-sobre">O objetivo desse site é que ele seja um currículo/portifólio das minhas experiências e projetos. Além de ser um projeto em andamento para aprendizado e conhecimento, fazendo uso de novas linguagens, tecnologias e metodologias conforme eu adquira mais conhecimento.</p>
+            <p class="descricao-sobre">Sou Desenvolvedor Jr/Pleno e atuo na área de TI desde 2013.</p>
+            <p class="descricao-sobre">Já tive experiências como Analista de sistemas, Analista de Suporte e Desenvolvedor back-end e front-end.</p>
+            <p class="descricao-sobre">No momento meu objetivo é me especializar apenas em front-end.</p> 
+        </article> 
+    </main>
+    <footer>
+        <h1 class="copyright">Desenvolvido por rrDev&copy</h1>
+    </footer>
+    <script src="index.js"></script>    
+</body>
 </html>

@@ -2,63 +2,59 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>Robson Rodrigo Dev</title>
+        <title>RRDev - Experiências</title>
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/style.css">
+        <script src="https://kit.fontawesome.com/e657a0e530.js" crossorigin="anonymous"></script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet"> 
     </head>
-    <body>
-        <header>
-            <nav>
-                <img src="assets/img/rrdev2.png" alt="Foto de Robson Rodrigo Cruz">       
-                <ul class="lista-nav">
-                    <li><a href="index.html">Sobre</a></li>
-                    <li><a href="formacao.html">Formação</a</li>
-                    <li><a href="experiencia.html">Experiências</a</li>
-                    <li><a href="conhecimento.html">Conhecimentos</a</li>
-                    <li><a href="projetos.html">Projetos</a></li>
-                </ul>  
-            </nav>
-            <footer>
-                <h1 class="copyright">Desenvolvido por rrDev&copy</h1>
-            </footer>
+        <body class="corpo">
+        <header class="cabecalho">
+            <a class="cabecalho_menu" aria-label="Menu"></a>            
         </header>
-        
-        <main>
-            <div class="sobre">
-                <h1 class="titulo-sobre">Experiências Profissionais</h1>
-                
-                <ul class="informacoes">
-                    <li class="emp"><img src="assets/img/solistica.png" alt=""></li>
-                    <li class="nome">Desenvolvedor Jr.</li>
-                    <li class="empresa">AGV Health & Nutrition/ Solistica</li>
-                    <li class="periodo">fev de 2020 - abr de 2021 · 1 ano 3 meses</li>
-                    <li class="descricao">Atuando com desenvolvimento, refatoração e manutenção de APIs e Sistemas com arquitetura de microsserviços. Stack: Laravel, Lumen e VueJs.</li>
-                </ul>
 
-                <ul class="informacoes">
-                    <li class="emp"><img src="assets/img/hitss.jpeg" alt=""></li>
-                    <li class="nome">Analista de suporte II</li>
-                    <li class="empresa">Global Hitss</li>
-                    <li class="periodo">jun de 2015 - ago de 2019 · 4 anos 3 meses</li>
-                    <li class="descricao">Administração de chamados e atendimento ao cliente com suporte técnico de nível I e II em software e hardware. Identificação de problemas através do código fonte (Delphi e C#). Consultas e alterações no Banco de Dados (SQLServer) viabilizando a solução dos problemas em nível I e II.</li>
-                </ul>
+        <img class="banner" src="assets/img/banner.jpg" alt="">
 
-                <ul class="informacoes">
-                    <li class="emp"><img src="assets/img/geomob.jpeg" alt=""></li>
-                    <li class="nome">Analista de sistema</li>
-                    <li class="empresa">GeoMob Soluções e Conteúdo Digital Ltda</li>
-                    <li class="periodo">fev de 2013 - mai de 2015 · 2 anos 4 meses</li>
-                    <li class="descricao">Responsável pelo desenvolvimento de todo o conteúdo multimídia e informativo das aplicações, além de atuar auxiliando no gerenciamento dos projetos, documentação e melhorias do código (html, css, JavaScript e SQL).</li>
-                </ul>
-
-            </div>
-        <main>
+        <nav class="menu_navegacao menu_navegacao_ativo">
+            <img class="menu_navegacao_logo" src="assets/img/rrdev2.png" alt="Imagem de Robson Rodrigo Cruz">
+            <a class="menu_navegacao_link" href="index.html">Sobre</a>
+            <a class="menu_navegacao_link" href="formacao.html">Formação</a>
+            <a class="menu_navegacao_link" href="experiencia.html">Experiências</a>
+            <a class="menu_navegacao_link" href="conhecimento.html">Conhecimentos</a>
+            <a class="menu_navegacao_link" href="projetos.html">Projetos</a>         
+        </nav>
         
-        
+        <main class="principal">
+            <h1>Experiências Profissionais</h1>
+            
+            <section class="informacoes">
+                <p class="logo-info"><img src="assets/img/solistica.png" alt=""></p>
+                <p class="nome-info">Desenvolvedor Jr.</p>
+                <p class="empresa-info">AGV Health & Nutrition/ Solistica</p>
+                <p class="periodo-info">fev de 2020 - abr de 2021 · 1 ano 3 meses</p>
+                <p class="descricao-info">Atuando com desenvolvimento, refatoração e manutenção de APIs e Sistemas com arquitetura de microsserviços. Stack: Laravel, Lumen e VueJs.</p>
+            </section>
+            <section class="informacoes">
+                <p class="logo-info"><img src="assets/img/hitss.jpeg" alt=""></p>
+                <p class="nome-info">Analista de suporte II</p>
+                <p class="empresa-info">Global Hitss</p>
+                <p class="periodo-info">jun de 2015 - ago de 2019 · 4 anos 3 meses</p>
+                <p class="descricao-info">Administração de chamados e atendimento ao cliente com suporte técnico de nível I e II em software e hardware. Identificação de problemas através do código fonte (Delphi e C#). Consultas e alterações no Banco de Dados (SQLServer) viabilizando a solução dos problemas em nível I e II.</p>
+            </section>
+            <section class="informacoes">
+                <p class="logo-info"><img src="assets/img/geomob.jpeg" alt=""></p>
+                <p class="nome-info">Analista de sistema</p>
+                <p class="empresa-info">GeoMob Soluções e Conteúdo Digital Ltda</p>
+                <p class="periodo-info">fev de 2013 - mai de 2015 · 2 anos 4 meses</p>
+                <p class="descricao-info">Responsável pelo desenvolvimento de todo o conteúdo multimídia e informativo das aplicações, além de atuar auxiliando no gerenciamento dos projetos, documentação e melhorias do código (html, css, JavaScript e SQL).</p>
+            </section>
+        </main>
+        <footer>
+            <h1 class="copyright">Desenvolvido por rrDev&copy</h1>
+        </footer>
+        <script src="index.js"></script>        
     </body>
-
 </html>
