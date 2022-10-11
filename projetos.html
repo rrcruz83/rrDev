@@ -2,58 +2,53 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>Robson Rodrigo Dev</title>
-        <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style.css">
+        <title>RRDev - Projetos</title>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
         <script src="https://kit.fontawesome.com/e657a0e530.js" crossorigin="anonymous"></script>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet"> 
     </head>
-    <body>
-        <header>
-            <nav>
-                <img src="img/rrdev2.png" alt="Foto de Robson Rodrigo Cruz">       
-                <ul class="lista-nav">
-                    <li><a href="index.html">Sobre</a></li>
-                    <li><a href="formacao.html">Formação</a</li>
-                    <li><a href="experiencia.html">Experiências</a</li>
-                    <li><a href="conhecimento.html">Conhecimentos</a</li>
-                    <li><a href="projetos.html">Projetos</a></li>
-                </ul>  
-            </nav>
-            <footer>
-                <h1 class="copyright">Desenvolvido por rrDev&copy</h1>
-            </footer>
+        <body class="corpo">
+        <header class="cabecalho">
+            <a class="cabecalho_menu" aria-label="Menu"></a>            
         </header>
-        
-        <main>
-            <div class="sobre">
-                <h1 class="titulo-sobre">Projetos</h1>
-                
-                <ul class="informacoes">
-                    <li><a href="https://floydiscografia.netlify.app/index.html"><img class="imagem" src="img/floydiscografia.png" alt=""></a></li>
-                    <li><a class="github" href="https://github.com/rrcruz83/floydiscografia"><i class="fa-brands fa-square-github"></i></a></li>
-                    <li class="nome">Floydiscografia</li>
-                    <li class="site"><a href="https://floydiscografia.netlify.app/index.html">floydiscografia.netlify.app</a></li>
-                    <li class="descricao">A ideia inicial é que a principio o site seja apenas um projeto visual feito em html e css catalogando toda a minha coleção do Pink Floyd. 
-                    <li class="descricao">Numa segunda fase quero evoluí-lo trazendo os dados dos meus albuns através de uma api json, utilizando JavaScript.</li>
-                    <li class="descricao">Já numa terceira fase a ideia é criar um banco de dados com todas as informações e imagens do site, que serão tratados inteiramente no back end, provavelmente em node.js e apresentado no front através de uma api.</li> 
-                </ul>
 
-                <ul class="informacoes">
-                    <li><a href="https://universoasimov.netlify.app/index.html"><img class="imagem" src="img/universo-asimov.png" alt=""></a></li>
-                    <li><a class="github" href="https://github.com/rrcruz83/universo-asimov"><i class="fa-brands fa-square-github"></i></a></li>
-                    <li class="nome">Universo Asimov</li>
-                    <li class="site"><a href="https://universoasimov.netlify.app/index.html">universoasimov.netlify.app</a></li>
-                    <li class="descricao">Um site enciclopédia feito em html e css sobre o universo dos livros de Isaac Asimov e sobre o autor. A ideia é que com mais conhecimento esse projeto a longo prazo se torne uma wiki brasileira sobre o universo Asimov, mais especificamente uma wiki das séries Robôs, Império e Fundação.</li>   
-                </ul>
+        <img class="banner" src="assets/img/banner.jpg" alt="">
 
-            </div>
-        <main>
-        
-        
+        <nav class="menu_navegacao menu_navegacao_ativo">
+            <img class="menu_navegacao_logo" src="assets/img/rrdev2.png" alt="Imagem de Robson Rodrigo Cruz">
+            <a class="menu_navegacao_link" href="index.html">Sobre</a>
+            <a class="menu_navegacao_link" href="formacao.html">Formação</a>
+            <a class="menu_navegacao_link" href="experiencia.html">Experiências</a>
+            <a class="menu_navegacao_link" href="conhecimento.html">Conhecimentos</a>
+            <a class="menu_navegacao_link" href="projetos.html">Projetos</a>         
+        </nav>
+        <main class="principal">
+            <h1>Projetos</h1>
+            <section class="informacoes">
+                <p class="box_imagem_site-info"><a href="https://floydiscografia.netlify.app/index.html"><img class="imagem_site-info" src="assets/img/floydiscografia.png" alt=""></a></p>
+                <p class="nome-info">Discografia Pink Floyd</p>
+                <p class="icone_github-info"><a href="https://github.com/rrcruz83/floydiscografia"><i class="fa-brands fa-square-github"></i></a></p>
+                <p class="site-info"><a href="https://floydiscografia.netlify.app/index.html">.netlify.app</a></p>
+                <p class="descricao-info">A ideia inicial é que a principio o site seja apenas um projeto visual feito em html e css catalogando toda a minha coleção do Pink Floyd. 
+                <p class="descricao-info">Numa segunda fase quero evoluí-lo trazendo os dados dos meus albuns através de uma api json, utilizando JavaScript.</p>
+                <p class="descricao-info">Já numa terceira fase a ideia é criar um banco de dados com todas as informações e imagens do site, que serão tratados inteiramente no back end, provavelmente em node.js e apresentado no front através de uma api.</p> 
+            </section>
+            <section class="informacoes">
+                <p class="box_imagem_site-info"><a href="https://universoasimov.netlify.app/index.html"><img class="imagem_site-info" src="assets/img/universo-asimov.png" alt=""></a></p>
+                <p class="nome-info">Universo Asimov</p>
+                <p class="icone_github-info"><a class="icone_github-info" href="https://github.com/rrcruz83/universo-asimov"><i class="fa-brands fa-square-github"></i></a></p>
+                <p class="site-info"><a href="https://universoasimov.netlify.app/index.html">.netlify.app</a></p>
+                <p class="descricao-info">Um site enciclopédia feito em html e css sobre o universo dos livros de Isaac Asimov e sobre o autor. A ideia é que com mais conhecimento esse projeto a longo prazo se torne uma wiki brasileira sobre o universo Asimov, mais especificamente uma wiki das séries Robôs, Império e Fundação.</p>   
+            </section>
+        </main>
+        <footer>
+            <h1 class="copyright">Desenvolvido por rrDev&copy</h1>
+        </footer>
+        <script src="index.js"></script>
     </body>
 
 </html>
